@@ -17,20 +17,7 @@ const ProfessionalExperience = () => {
         <TimelineComponentVertical
           left={true}
           title="Kutatási Aszisztens"
-          content={
-            <>
-              <span>
-                ELTE - PPK Emlékezet, Nyelv és Idegtudomány Kutatócsoport
-              </span>
-              <br />
-              <span>
-                Adatfelvétel lebonyolítása (EEG és eye-tracker használata),
-                vizsgálati személyekkel kapcsolattartás, jegyzőkönyv készítése,
-                adminisztráció. „Non-invazív agyi stimuláció (rTMS) hatása az
-                implicit statisztikai tanulásra” c. projekt keretében.
-              </span>
-            </>
-          }
+          content="ELTE - PPK Emlékezet, Nyelv és Idegtudomány Kutatócsoport"
           time="2021.szept. - 2023.máj."
         />
         <TimelineComponentVertical

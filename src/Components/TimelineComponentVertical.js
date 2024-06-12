@@ -11,9 +11,10 @@ const TimelineComponentVertical = ({ title, content, time, left }) => {
           ></div>
           <div className="w-[10px] h-[220px] bg-lime-600 my-auto z-0 absolute left-1/2 transform -translate-x-1/2"></div>
           <div className="w-full h-full flex items-center justify-end">
-            <div className="w-1/2 p-2 ">
+            <div className="w-1/2 p-3">
               <h4 className="text-center font-bold">{title}</h4>
-              <p className="text-center">{time}</p>
+              <p className="text-center italic">{time}</p>
+              <hr className="my-1 border-t-2 w-3/4 mx-auto border-gray-300" />
               <p className="text-center">{content}</p>
             </div>
           </div>
@@ -26,9 +27,10 @@ const TimelineComponentVertical = ({ title, content, time, left }) => {
           ></div>
           <div className="w-[10px] h-[220px] bg-lime-600 my-auto z-0 absolute left-1/2 transform -translate-x-1/2"></div>
           <div className="w-full h-full flex items-center">
-            <div className="w-1/2 p-2 ">
+            <div className="w-1/2 p-3">
               <h4 className="text-center font-bold">{title}</h4>
-              <p className="text-center">{time}</p>
+              <p className="text-center italic">{time}</p>
+              <hr className="my-1 border-t-2 w-3/4 mx-auto border-gray-300" />
               <p className="text-center">{content}</p>
             </div>
           </div>

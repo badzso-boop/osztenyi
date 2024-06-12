@@ -36,7 +36,7 @@ const Nav = () => {
             src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
             alt="Your Company Logo"
           />
-          <span className="ml-2 text-xl font-semibold">Your Company</span>
+          <Link className="ml-2 text-xl font-semibold" to="/">Osztényi Dóri</Link>
         </div>
         <div className="hidden lg:flex space-x-4">
           <Link to="/">Főoldal</Link>
