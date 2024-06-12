@@ -7,23 +7,20 @@ const Education = () => {
     <div className="mb-[70px]">
       <h1 className="text-4xl text-center font-bold">Oktatás és Képzés</h1>
 
-      <div className="w-3/4 mx-auto mt-5 border flex flex-wrap">
+      <div className="w-3/4 mx-auto mt-5 border flex flex-wrap grid grid-cols-4">
         <TimelineComponents
-          width="3"
           title="Érettségi"
           content="ELTE Apáczai Csere János Gyakorló Gimnázium és Kollégium"
           time="2013 - 2017"
         />
 
         <TimelineComponents
-          width="3"
           title="Egyetem"
           content="Semmelweis Egyetem Fogorvostudományi Kar"
           time="2017 - 2019"
         />
 
         <TimelineComponents
-          width="3"
           title="Pszichológia BA"
           content={
             <>
@@ -47,7 +44,6 @@ const Education = () => {
         />
 
         <TimelineComponents
-          width="3"
           title="Pszichológia MA"
           content="Klinikai és egészségpszichológia specializáció Eötvös Loránd
               Tudományegyetem Pedagógiai és Pszichológiai Kar"
