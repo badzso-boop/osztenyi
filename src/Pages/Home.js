@@ -37,7 +37,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="w-full md:w-2/3 md:transform md:translate-y-0 translate-y-1/4">
+          <div className="w-full md:w-2/3 md:transform md:translate-y-0 translate-y-2/4">
             <div className="h-1/2 md:border">
               <div className="w-full flex flex-wrap transform translate-y-1/2">
                 <div className="p-2 w-1/2 h-[20%]">
