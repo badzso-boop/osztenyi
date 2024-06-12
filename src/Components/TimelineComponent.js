@@ -7,8 +7,7 @@ const TimelineComponent = ({ title, content, time }) => {
         className="bg-red-400 z-10 w-[25px] h-[25px] absolute left-1/2 transform -translate-x-1/2"
         style={{ borderRadius: "50px" }}
       ></div>
-      <div className="w-[100%] h-[10px] bg-lime-600 absolute top-2 my-auto z-0npm start
-      "></div>
+      <div className="w-[100%] h-[10px] bg-lime-600 absolute top-2 my-auto z-0"></div>
       <p className="mx-auto text-center mt-7 mx-2">{time}</p>
       <div>
         <h4 className="text-center font-bold mt-2">{title}</h4>

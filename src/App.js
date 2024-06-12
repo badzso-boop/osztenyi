@@ -14,7 +14,7 @@ import Work from "./Pages/Work.js";
 
 const App = () => {
   return (
-    <div className="h-screen p-2">
+    <div className="h-screen">
         <Router>
           <div>
             <Routes>
