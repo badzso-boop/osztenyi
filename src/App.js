@@ -17,7 +17,7 @@ const App = () => {
         <Router>
           <div>
             <Nav />
-            <Routes basename="/osztenyi">
+            <Routes>
               <Route path="/" exact element={<Home />} />
               <Route path="/about" exact element={<About />} />
               <Route path="/contact" exact element={<Contact />} />
