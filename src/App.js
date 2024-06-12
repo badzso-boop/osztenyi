@@ -10,14 +10,14 @@ import Education from "./Pages/Education.js";
 import ProfessionalExperience from "./Pages/ProfessionalExperience.js";
 import Publications from "./Pages/Publications.js";
 import Volunteering from "./Pages/Volunteering.js";
-import Work from "./Pages/Work.js";
 
 const App = () => {
   return (
     <div className="h-screen">
         <Router>
           <div>
-            <Routes>
+            <Nav />
+            <Routes basename="/osztenyi">
               <Route path="/" exact element={<Home />} />
               <Route path="/about" exact element={<About />} />
               <Route path="/contact" exact element={<Contact />} />
@@ -25,9 +25,7 @@ const App = () => {
               <Route path="/professionalexperience" exact element={<ProfessionalExperience />} />
               <Route path="/publications" exact element={<Publications />} />
               <Route path="/volunteering" exact element={<Volunteering />} />
-              <Route path="/work" exact element={<Work />} />
             </Routes>
-            <Nav />
           </div>
         </Router>
     </div>
