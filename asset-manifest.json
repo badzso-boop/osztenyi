@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/osztenyi/static/css/main.19c2033a.css",
-    "main.js": "/osztenyi/static/js/main.1b7d0e37.js",
+    "main.css": "/osztenyi/static/css/main.1e24949b.css",
+    "main.js": "/osztenyi/static/js/main.f81a1c11.js",
     "static/js/453.4b49ea88.chunk.js": "/osztenyi/static/js/453.4b49ea88.chunk.js",
     "index.html": "/osztenyi/index.html",
-    "main.19c2033a.css.map": "/osztenyi/static/css/main.19c2033a.css.map",
-    "main.1b7d0e37.js.map": "/osztenyi/static/js/main.1b7d0e37.js.map",
+    "main.1e24949b.css.map": "/osztenyi/static/css/main.1e24949b.css.map",
+    "main.f81a1c11.js.map": "/osztenyi/static/js/main.f81a1c11.js.map",
     "453.4b49ea88.chunk.js.map": "/osztenyi/static/js/453.4b49ea88.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.19c2033a.css",
-    "static/js/main.1b7d0e37.js"
+    "static/css/main.1e24949b.css",
+    "static/js/main.f81a1c11.js"
   ]
 }
