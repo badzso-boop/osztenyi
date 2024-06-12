@@ -14,7 +14,7 @@ import Volunteering from "./Pages/Volunteering.js";
 const App = () => {
   return (
     <div className="h-screen">
-        <Router>
+        <Router basename="/osztenyi">
           <div>
             <Nav />
             <Routes>
